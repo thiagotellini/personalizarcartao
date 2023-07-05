@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Personalize seu cartão</title>
+
+  <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+
+</head>
+
+<body>
+  <main class="container">
+    <aside class="options">
+      <div class="options-container">
+        <header class="header">
+          <img src="img/logo_ej.svg" alt="Ejbank" width="100px" height="100px" />
+        </header>
+
+        <h1 class="title">Personalize seu cartão - Banco X</h1>
+
+        <div class="input-name">
+          <label for="name">Ensira seu nome</label>
+          <input type="text" id="name" data-js="name" />
+        </div>
+
+        <div class="input-colors">
+          <label>Selecione abaixo a cor desejada</label>
+          <input type="button" class="color1" data-js="btn-color" />
+          <input type="button" class="color2" data-js="btn-color" />
+          <input type="button" class="color3" data-js="btn-color" />
+          <input type="button" class="color4" data-js="btn-color" />
+          <input type="button" class="color5" data-js="btn-color" />
+          <input type="button" class="color6" data-js="btn-color" />
+        </div>
+
+        <div class="input-model">
+          <label>Selecione o template</label>
+          <div class="flex">
+            <input type="button" value="Horizontal" data-js="btn-model" />
+            <input type="button" value="Vertical" data-js="btn-model" />
+          </div>
+        </div>
+
+
+        <footer>
+          <ul class="social-media">
+            <li>
+              <a href="https://www.linkedin.com/in/thiagotellini/" target="_blank">
+                <img src="img/linkedin.svg" alt="Linkedin" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/thiagotellini" target="_blank">
+                <img src="img/github.svg" alt="GitHub" />
+              </a>
+            </li>
+          </ul>
+
+          <p class="copy">
+            Desenvolvido por
+            <a href="https://phpthiagotelinicv.vercel.app/" target="_blank">Thiago Tellini &copy;</a><br>
+            Todos os direitos reservados
+          </p>
+        </footer>
+      </div>
+    </aside>
+
+    <section class="preview">
+      <div class="card" data-js="card">
+        <div class="card-bg" data-js="card-bg"></div>
+        <div class="card-flag">
+          <img src="img/ejbank.svg" alt="Flag" width="120px" height="120px" />
+        </div>
+
+        <div class="card-flex">
+          <div class="card-logo">
+            <img src="img/logo_ej-mini.svg" alt="Ejbank" width="60px" height="60px"" />
+          </div>
+          <p class=" card-name"></p>
+          </div>
+        </div>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
